@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<time.h>
 #include<string.h>
-void delay(int no_of_millisecond){
+void delay(int no_of_millisecond){ //Animation done
     clock_t start_time = clock();
     while (clock()<start_time+no_of_millisecond);
     
