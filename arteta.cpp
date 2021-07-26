@@ -3,7 +3,7 @@ int main()
 {
 	int a,b,i,j,k;
 	printf("Enter the range from lower to higher \n");
-	scanf("%d%d", &a, &b);
+	scanf("%d%d", &a, &b);// taking input from the user.
 	for (i=a+1;i<b;i++) {
 			k=0;
 		for (j=2; j<i; j++) {
